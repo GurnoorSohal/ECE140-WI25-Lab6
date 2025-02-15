@@ -19,7 +19,7 @@ unsigned long lsatPublish = 0;
 void setup() {
     Serial.begin(115200);
     delay(1000);
-    Serial.println("Starting ESP32 sensor node...")
+    Serial.println("Starting ESP32 sensor node...");
 }
 
 void loop() {
