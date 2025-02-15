@@ -7,10 +7,10 @@ import numpy as np
 # MQTT Broker settings
 BROKER = "broker.hivemq.com"
 PORT = 1883
-BASE_TOPIC = "ENTER_SOMETHING_UNIQUE_HERE_THAT_SHOULD_ALSO_MATCH_MAINCPP/ece140/sensors"
+BASE_TOPIC = "gurnoor/ece140/sensors"
 TOPIC = BASE_TOPIC + "/#"
 
-if BASE_TOPIC == "ENTER_SOMETHING_UNIQUE_HERE_THAT_SHOULD_ALSO_MATCH_MAINCPP/ece140/sensors":
+if BASE_TOPIC == "gurnoor/ece140/sensors":
     print("Please enter a unique topic for your server")
     exit()
 
